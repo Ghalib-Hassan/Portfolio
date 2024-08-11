@@ -666,14 +666,14 @@ section .central-logo img {
 /* //////footer///// */
 footer {
     position: relative;
-    top: 1000px;
+    /* top: 1000px; */
     height: 70vh;
     text-align: center;
     width: 100%;
     text-align: center;
     padding: 20px;
     box-sizing: border-box;
-    margin-top: auto;
+    /* margin-top: auto; */
 }
 
 footer div.text {
@@ -735,7 +735,7 @@ footer div.email {
     justify-content: center;
     gap: 10px;
     align-items: center;
-    border-bottom: 50px solid transparent;
+   padding-bottom: 100px;
 }
 
 footer div.email input {
