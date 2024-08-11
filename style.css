@@ -409,6 +409,11 @@ main div.para span.blue {
     color: #484848;
 }
 
+section {
+    margin-bottom: 0;
+}
+
+
 section div.container span.highlight {
     color: var(--highlight);
 }
@@ -506,6 +511,7 @@ section .central-logo img {
     display: flex;
     flex-direction: column;
     min-height: 100vh; 
+    margin-bottom: 10px;
 }
 /* heading */
 .heading h2 {
@@ -729,6 +735,7 @@ footer div.email {
     justify-content: center;
     gap: 10px;
     align-items: center;
+    border-bottom: 50px solid transparent;
 }
 
 footer div.email input {
