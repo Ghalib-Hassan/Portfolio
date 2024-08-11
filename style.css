@@ -723,7 +723,7 @@ footer .footer-autoShow {
     }
 
     to {
-        transform: translateY(80px) scale(1.0);
+        transform: translateY(30px) scale(1.0);
     }
 
 }
